@@ -1,0 +1,364 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    padding-right: 100px;
+	font-family: sans-serif;
+	background: #34495e;
+}
+
+#login
+{
+    width:400px;
+    margin:auto;
+    background:#323232;
+    text-align:center;
+    border-radius:25px;
+    transition:0.25s;
+}
+
+
+#login input[type='email'],#login input[type='text'], #login input[type='password']
+{
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #3498db;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    border-radius:25px;
+    transition:0.25s;
+}
+#login input[type='email']:focus,#login input[type='text']:focus, #login input[type='password']:focus
+{
+    width:280px;
+    border-color:#2ecc71;
+}
+
+#login li a:hover
+{
+    color:#4cbbb9 ;
+}
+#login h1
+{
+    color:white;
+    text-transform:uppercase;
+    font-weight:500px;
+}
+
+#login button[type='submit']
+{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #2ecc71;
+    padding:14px 40px;
+    outline:none;
+    color:white;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+#login button[type='submit']:hover
+{
+    background:#2ecc71;
+    
+}
+
+#login li 
+{
+    padding: 5px 0px 10px 0px;
+    text-align: center;
+    list-style: none;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+   
+    background-color:lightgray;
+    margin: 0px 0px 50px 60px;
+}
+
+.form
+{
+	width:450px;
+    margin:auto;
+	background:#323232;
+	text-align:center;
+    border-radius:25px;
+	transition:0.25s;
+}
+label
+{
+	color:white;
+}
+
+.form input[type='email'],.form input[type='text'], .form input[type='password']
+{
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border:2px solid #3498db;
+	padding:14px 10px;
+	width:200px;
+	outline:none;
+	color:white;
+	border-radius:25px;
+	transition:0.25s;
+}
+.form input[type='email']:focus,.form input[type='text']:focus, .form input[type='password']:focus
+{
+	width:280px;
+	border-color:#2ecc71;
+}
+.form h1
+{
+	color:white;
+	text-transform:uppercase;
+	font-weight:500px;
+}
+
+.form button[type='submit']
+{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border:2px solid #2ecc71;
+	padding:14px 40px;
+	outline:none;
+	color:white;
+	border-radius:25px;
+    cursor:pointer;
+}
+
+.form button[type='submit']:hover
+{
+	background:#2ecc71;
+	
+}
+h2
+{
+	color:white;
+}
+
+h2 a
+{
+   text-decoration: none;
+   color: #459fed;	
+}
+h2 a:hover
+{
+   color:#ADD9D4;
+   text-decoration:underline;   
+}
+a
+{
+    text-decoration: none;
+}
+#header1 a
+{
+    color: white;
+}
+#header1
+{
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: darkgray;
+    border-radius:10px;
+    background-color:#404040;
+    margin-bottom: 50px;
+}
+.logo
+{
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 100px;
+}
+#header1 ul 
+{
+    list-style: none;
+    display: inline;
+    color: white;
+    overflow:hidden;
+}
+.searchimg{
+    font-size: x-large;
+    font-weight: bold;
+    display:inline;
+    padding-top: 0px;
+    margin-left: 30px;
+    float: left;
+}
+
+#in1
+{
+    background-image:url("search.gif");
+    background-repeat:no-repeat;
+    background-position:right;
+    margin: 10px 0px 0px 150px;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 7px;
+    color: black;
+    float: left;
+}
+#header1 ul li img
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+.listitems
+{
+    font-size: x-large;
+    font-weight: bold;
+    list-style:none;
+    display:inline;
+    margin-right: 92px;
+    padding-top: 25px;
+    float: left;
+}
+#header1 ul li a:hover
+{
+    color: red;
+}
+#in2
+{
+    background-image:url("search.gif");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-color: #404040;
+    width: 300px;
+    margin: 10px 0px 15px 100px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    float: left;
+}
+#Categories
+{
+    width: 1200px;
+    margin: auto;
+}
+
+#Categories a
+{
+    color: white;
+}
+#Categoriesg ul li a:hover
+{
+    color: black;
+}
+#Categories li 
+{
+    padding: 10px 0px 8px 0px;
+    text-align: center;
+    list-style: none;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    background-color:dimgrey;
+    margin: 0px 0px 50px 60px;
+}
+#submit1
+{
+    margin: 10px 0px 0px 30px;
+    height: 37px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+#submit1:hover
+{
+    background-color: white;
+    color:  blue;
+}
+#products
+{
+    float: left;
+    width: 100%;
+    background-color: rgb(202, 200, 200);
+    margin:100px;
+}
+.pone
+{
+    float: left;
+    width: 18%;
+    height: 275px;
+    padding-left: 65px;
+}
+.pone h2,h3
+{
+    display: inline;
+}
+.imgpone
+{
+    height: 200px;
+    width: 100%;
+}
+.pone button
+{
+    height: 30px;
+    width: 100px;
+    float: right;
+    padding: 5px 5px 5px 5px;
+    margin-top: 0px; 
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.pone button:hover
+{
+    background-color: white;
+    color:  blue;
+}
+#header2 ul 
+{
+    list-style: none;
+    display: inline;
+    color: white;
+    overflow:hidden;
+    background-color: darkgray;
+}
+.lolo{
+    font-size: x-large;
+    font-weight: bold;
+    list-style:none;
+    display:inline;
+    margin-right: 92px;
+    padding-top: 25px;
+    float: left;
+}
+#myUL
+{
+    padding-top: 20px;
+    background-color: darkgray;
+    height: 40px;
+}
+#myUL li
+{
+    display: inline;
+    margin-right: 150px;
+    background-color: #404040;
+}
+.mySlides
+{
+    float: left;
+    height: 150px;
+    margin: 50px 100px;
+}
